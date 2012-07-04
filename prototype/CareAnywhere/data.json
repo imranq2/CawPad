@@ -1,0 +1,24 @@
+{
+    "firstname": "John",
+    "lastname": "Doe",
+    "visits": [
+               {
+               "in_date": "07/06/2011 10:34 -4GMT",
+               "out_date": "07/06/2011 15:13 -4GMT",
+               "nurse": {
+               "firstname": "Mary",
+               "lastname": "Snow",
+               "license": "QWERTY123"
+               }
+               },
+               {
+               "in_date": "09/08/2011 10:34 -4GMT",
+               "out_date": "09/08/2011 15:13 -4GMT",
+               "nurse": {
+               "firstname": "Robert",
+               "lastname": "Crain",
+               "license": "ASDFGH123"
+               }
+               }
+               ]
+}

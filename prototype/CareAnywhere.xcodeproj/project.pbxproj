@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B0D9B08159C133D00186834 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B0D9B07159C133D00186834 /* UIKit.framework */; };
+		3B0D9B0A159C133D00186834 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B0D9B09159C133D00186834 /* Foundation.framework */; };
+		3B0D9B0C159C133D00186834 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B0D9B0B159C133D00186834 /* CoreGraphics.framework */; };
+		3B0D9B0E159C133D00186834 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B0D9B0D159C133D00186834 /* CoreData.framework */; };
+		3B0D9B14159C133D00186834 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B0D9B12159C133D00186834 /* InfoPlist.strings */; };
+		3B0D9B16159C133D00186834 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0D9B15159C133D00186834 /* main.m */; };
+		3B0D9B1A159C133D00186834 /* CAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0D9B19159C133D00186834 /* CAAppDelegate.m */; };
+		3B0D9B1D159C133D00186834 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0D9B1B159C133D00186834 /* MainStoryboard.storyboard */; };
+		3B0D9B20159C133D00186834 /* CareAnywhere.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B0D9B1E159C133D00186834 /* CareAnywhere.xcdatamodeld */; };
+		3B0D9B23159C133D00186834 /* CAMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0D9B22159C133D00186834 /* CAMasterViewController.m */; };
+		3B0D9B26159C133D00186834 /* CADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0D9B25159C133D00186834 /* CADetailViewController.m */; };
+		3B0D9B2E159C145500186834 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B0D9B2D159C145500186834 /* data.json */; };
+		3B78081B159D51C0008F002B /* Visit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B78081A159D51C0008F002B /* Visit.m */; };
+		3B78081E159D51C1008F002B /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B78081D159D51C1008F002B /* Patient.m */; };
+		3B780821159D51C1008F002B /* Nurse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B780820159D51C1008F002B /* Nurse.m */; };
+		3B780825159D54B0008F002B /* NSManagedObject+CareAnywhere.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B780824159D54B0008F002B /* NSManagedObject+CareAnywhere.m */; };
+		3B780828159D5705008F002B /* VisitTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B780827159D5705008F002B /* VisitTableViewCell.m */; };
+		3B78082E159D5D86008F002B /* NursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B78082D159D5D86008F002B /* NursesViewController.m */; };
+		3BB41D7E15A2606700E8EA6D /* JSONViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB41D7D15A2606600E8EA6D /* JSONViewerViewController.m */; };
+		3BB41D8215A327C200E8EA6D /* DiffNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB41D8115A327C100E8EA6D /* DiffNode.m */; };
+		3BB41D8515A3291400E8EA6D /* JSONObjectDiff.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB41D8415A3291200E8EA6D /* JSONObjectDiff.m */; };
+		3BB41E7A15A487A500E8EA6D /* CustomUIStoryboardPopoverSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB41E7915A487A400E8EA6D /* CustomUIStoryboardPopoverSegue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B0D9B03159C133D00186834 /* CareAnywhere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CareAnywhere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B0D9B07159C133D00186834 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3B0D9B09159C133D00186834 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B0D9B0B159C133D00186834 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3B0D9B0D159C133D00186834 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3B0D9B11159C133D00186834 /* CareAnywhere-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CareAnywhere-Info.plist"; sourceTree = "<group>"; };
+		3B0D9B13159C133D00186834 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B0D9B15159C133D00186834 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B0D9B17159C133D00186834 /* CareAnywhere-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CareAnywhere-Prefix.pch"; sourceTree = "<group>"; };
+		3B0D9B18159C133D00186834 /* CAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAAppDelegate.h; sourceTree = "<group>"; };
+		3B0D9B19159C133D00186834 /* CAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAAppDelegate.m; sourceTree = "<group>"; };
+		3B0D9B1C159C133D00186834 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3B0D9B1F159C133D00186834 /* CareAnywhere.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CareAnywhere.xcdatamodel; sourceTree = "<group>"; };
+		3B0D9B21159C133D00186834 /* CAMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAMasterViewController.h; sourceTree = "<group>"; };
+		3B0D9B22159C133D00186834 /* CAMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAMasterViewController.m; sourceTree = "<group>"; };
+		3B0D9B24159C133D00186834 /* CADetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CADetailViewController.h; sourceTree = "<group>"; };
+		3B0D9B25159C133D00186834 /* CADetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CADetailViewController.m; sourceTree = "<group>"; };
+		3B0D9B2D159C145500186834 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; tabWidth = 4; wrapsLines = 1; };
+		3B780819159D51C0008F002B /* Visit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Visit.h; sourceTree = "<group>"; };
+		3B78081A159D51C0008F002B /* Visit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Visit.m; sourceTree = "<group>"; };
+		3B78081C159D51C1008F002B /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		3B78081D159D51C1008F002B /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		3B78081F159D51C1008F002B /* Nurse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nurse.h; sourceTree = "<group>"; };
+		3B780820159D51C1008F002B /* Nurse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nurse.m; sourceTree = "<group>"; };
+		3B780823159D54B0008F002B /* NSManagedObject+CareAnywhere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+CareAnywhere.h"; sourceTree = "<group>"; };
+		3B780824159D54B0008F002B /* NSManagedObject+CareAnywhere.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+CareAnywhere.m"; sourceTree = "<group>"; };
+		3B780826159D5705008F002B /* VisitTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisitTableViewCell.h; sourceTree = "<group>"; };
+		3B780827159D5705008F002B /* VisitTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisitTableViewCell.m; sourceTree = "<group>"; };
+		3B78082C159D5D85008F002B /* NursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NursesViewController.h; sourceTree = "<group>"; };
+		3B78082D159D5D86008F002B /* NursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NursesViewController.m; sourceTree = "<group>"; };
+		3BB41D7C15A2606600E8EA6D /* JSONViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONViewerViewController.h; sourceTree = "<group>"; };
+		3BB41D7D15A2606600E8EA6D /* JSONViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONViewerViewController.m; sourceTree = "<group>"; };
+		3BB41D8015A327C000E8EA6D /* DiffNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiffNode.h; sourceTree = "<group>"; };
+		3BB41D8115A327C100E8EA6D /* DiffNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiffNode.m; sourceTree = "<group>"; };
+		3BB41D8315A3291200E8EA6D /* JSONObjectDiff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONObjectDiff.h; sourceTree = "<group>"; };
+		3BB41D8415A3291200E8EA6D /* JSONObjectDiff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONObjectDiff.m; sourceTree = "<group>"; };
+		3BB41E7815A487A300E8EA6D /* CustomUIStoryboardPopoverSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUIStoryboardPopoverSegue.h; sourceTree = "<group>"; };
+		3BB41E7915A487A400E8EA6D /* CustomUIStoryboardPopoverSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUIStoryboardPopoverSegue.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B0D9B00159C133C00186834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B0D9B08159C133D00186834 /* UIKit.framework in Frameworks */,
+				3B0D9B0A159C133D00186834 /* Foundation.framework in Frameworks */,
+				3B0D9B0C159C133D00186834 /* CoreGraphics.framework in Frameworks */,
+				3B0D9B0E159C133D00186834 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B0D9AF8159C133B00186834 = {
+			isa = PBXGroup;
+			children = (
+				3B0D9B0F159C133D00186834 /* CareAnywhere */,
+				3B0D9B06159C133D00186834 /* Frameworks */,
+				3B0D9B04159C133D00186834 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B0D9B04159C133D00186834 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B0D9B03159C133D00186834 /* CareAnywhere.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B0D9B06159C133D00186834 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B0D9B07159C133D00186834 /* UIKit.framework */,
+				3B0D9B09159C133D00186834 /* Foundation.framework */,
+				3B0D9B0B159C133D00186834 /* CoreGraphics.framework */,
+				3B0D9B0D159C133D00186834 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B0D9B0F159C133D00186834 /* CareAnywhere */ = {
+			isa = PBXGroup;
+			children = (
+				3B780823159D54B0008F002B /* NSManagedObject+CareAnywhere.h */,
+				3B780824159D54B0008F002B /* NSManagedObject+CareAnywhere.m */,
+				3B0D9B18159C133D00186834 /* CAAppDelegate.h */,
+				3B0D9B19159C133D00186834 /* CAAppDelegate.m */,
+				3B0D9B1B159C133D00186834 /* MainStoryboard.storyboard */,
+				3B78082C159D5D85008F002B /* NursesViewController.h */,
+				3B78082D159D5D86008F002B /* NursesViewController.m */,
+				3B0D9B21159C133D00186834 /* CAMasterViewController.h */,
+				3B0D9B22159C133D00186834 /* CAMasterViewController.m */,
+				3B0D9B24159C133D00186834 /* CADetailViewController.h */,
+				3B0D9B25159C133D00186834 /* CADetailViewController.m */,
+				3B0D9B1E159C133D00186834 /* CareAnywhere.xcdatamodeld */,
+				3B0D9B10159C133D00186834 /* Supporting Files */,
+				3B0D9B2D159C145500186834 /* data.json */,
+				3B78081F159D51C1008F002B /* Nurse.h */,
+				3B780820159D51C1008F002B /* Nurse.m */,
+				3B78081C159D51C1008F002B /* Patient.h */,
+				3B78081D159D51C1008F002B /* Patient.m */,
+				3B780819159D51C0008F002B /* Visit.h */,
+				3B78081A159D51C0008F002B /* Visit.m */,
+				3B780826159D5705008F002B /* VisitTableViewCell.h */,
+				3B780827159D5705008F002B /* VisitTableViewCell.m */,
+				3BB41D7C15A2606600E8EA6D /* JSONViewerViewController.h */,
+				3BB41D7D15A2606600E8EA6D /* JSONViewerViewController.m */,
+				3BB41D8015A327C000E8EA6D /* DiffNode.h */,
+				3BB41D8115A327C100E8EA6D /* DiffNode.m */,
+				3BB41D8315A3291200E8EA6D /* JSONObjectDiff.h */,
+				3BB41D8415A3291200E8EA6D /* JSONObjectDiff.m */,
+				3BB41E7815A487A300E8EA6D /* CustomUIStoryboardPopoverSegue.h */,
+				3BB41E7915A487A400E8EA6D /* CustomUIStoryboardPopoverSegue.m */,
+			);
+			path = CareAnywhere;
+			sourceTree = "<group>";
+		};
+		3B0D9B10159C133D00186834 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B0D9B11159C133D00186834 /* CareAnywhere-Info.plist */,
+				3B0D9B12159C133D00186834 /* InfoPlist.strings */,
+				3B0D9B15159C133D00186834 /* main.m */,
+				3B0D9B17159C133D00186834 /* CareAnywhere-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B0D9B02159C133C00186834 /* CareAnywhere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B0D9B29159C133D00186834 /* Build configuration list for PBXNativeTarget "CareAnywhere" */;
+			buildPhases = (
+				3B0D9AFF159C133C00186834 /* Sources */,
+				3B0D9B00159C133C00186834 /* Frameworks */,
+				3B0D9B01159C133C00186834 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CareAnywhere;
+			productName = CareAnywhere;
+			productReference = 3B0D9B03159C133D00186834 /* CareAnywhere.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B0D9AFA159C133B00186834 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3B0D9AFD159C133B00186834 /* Build configuration list for PBXProject "CareAnywhere" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3B0D9AF8159C133B00186834;
+			productRefGroup = 3B0D9B04159C133D00186834 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B0D9B02159C133C00186834 /* CareAnywhere */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B0D9B01159C133C00186834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B0D9B14159C133D00186834 /* InfoPlist.strings in Resources */,
+				3B0D9B1D159C133D00186834 /* MainStoryboard.storyboard in Resources */,
+				3B0D9B2E159C145500186834 /* data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B0D9AFF159C133C00186834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B0D9B16159C133D00186834 /* main.m in Sources */,
+				3B0D9B1A159C133D00186834 /* CAAppDelegate.m in Sources */,
+				3B0D9B20159C133D00186834 /* CareAnywhere.xcdatamodeld in Sources */,
+				3B0D9B23159C133D00186834 /* CAMasterViewController.m in Sources */,
+				3B0D9B26159C133D00186834 /* CADetailViewController.m in Sources */,
+				3B78081B159D51C0008F002B /* Visit.m in Sources */,
+				3B78081E159D51C1008F002B /* Patient.m in Sources */,
+				3B780821159D51C1008F002B /* Nurse.m in Sources */,
+				3B780825159D54B0008F002B /* NSManagedObject+CareAnywhere.m in Sources */,
+				3B780828159D5705008F002B /* VisitTableViewCell.m in Sources */,
+				3B78082E159D5D86008F002B /* NursesViewController.m in Sources */,
+				3BB41D7E15A2606700E8EA6D /* JSONViewerViewController.m in Sources */,
+				3BB41D8215A327C200E8EA6D /* DiffNode.m in Sources */,
+				3BB41D8515A3291400E8EA6D /* JSONObjectDiff.m in Sources */,
+				3BB41E7A15A487A500E8EA6D /* CustomUIStoryboardPopoverSegue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B0D9B12159C133D00186834 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B0D9B13159C133D00186834 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3B0D9B1B159C133D00186834 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B0D9B1C159C133D00186834 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B0D9B27159C133D00186834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3B0D9B28159C133D00186834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B0D9B2A159C133D00186834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CareAnywhere/CareAnywhere-Prefix.pch";
+				INFOPLIST_FILE = "CareAnywhere/CareAnywhere-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3B0D9B2B159C133D00186834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CareAnywhere/CareAnywhere-Prefix.pch";
+				INFOPLIST_FILE = "CareAnywhere/CareAnywhere-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B0D9AFD159C133B00186834 /* Build configuration list for PBXProject "CareAnywhere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B0D9B27159C133D00186834 /* Debug */,
+				3B0D9B28159C133D00186834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B0D9B29159C133D00186834 /* Build configuration list for PBXNativeTarget "CareAnywhere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B0D9B2A159C133D00186834 /* Debug */,
+				3B0D9B2B159C133D00186834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3B0D9B1E159C133D00186834 /* CareAnywhere.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3B0D9B1F159C133D00186834 /* CareAnywhere.xcdatamodel */,
+			);
+			currentVersion = 3B0D9B1F159C133D00186834 /* CareAnywhere.xcdatamodel */;
+			path = CareAnywhere.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3B0D9AFA159C133B00186834 /* Project object */;
+}
